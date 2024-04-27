@@ -1,0 +1,200 @@
+body 
+{
+  background-color: #D1E5F4;
+  /*background-color: #2D4855;*/  
+  margin: 0px;
+  height: 100%;
+}
+
+
+/* tabs */
+.tabs
+{
+  /*position: fixed;*/
+  text-align: center;
+  /*border: 1px solid #ccc;*/ 
+  /*display: flex;*/
+  width: 100%;
+  padding-top: 20px;
+  background-color: #D1E5F4;
+}
+
+
+.tab-buttons
+{
+  
+  background-color: #D1E5F4;
+  border: none;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 10px 150px;
+  transition: 0.1s;
+  flex: 1;
+  
+  
+}
+
+.tab-buttons img {
+  max-width: 100%; /* Ensure the image fits within the button */
+}
+
+.tab-buttons:hover 
+{
+  color: #FFC000;
+}
+
+.social-icons
+{
+  width: 40px;
+  margin-right: 0px;
+}
+
+.social-buttons
+{
+  width: 50px;
+  margin-top: 20px;
+  background-color: #D1E5F4;
+  padding: 10px;
+  border: none;
+}
+
+/* introduction */
+.hello-world 
+{
+  color: #FFC000;
+  font-family: "Fira Mono", monospace;
+  font-weight: 900;
+  font-style: normal;
+  
+}
+
+
+.name 
+{
+  color: #FFC000;
+  font-family: sans-serif; 
+  font-size: 72px;
+}
+
+/* scroll ticker */
+.scroll 
+{
+  width: 750px; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+  overflow: auto; /* Enable scrolling */
+
+  -moz-transform: translateX(20%);
+  -webkit-transform: translateX(50%);
+  transform: translateX(50%);
+  
+  -moz-animation: my-animation 5s linear infinite;
+  -webkit-animation: my-animation 5s linear infinite;
+  animation: my-animation 16s linear infinite;
+}
+
+.skills 
+{
+  color: white;
+  font-size: 16px;
+  font-family: sans-serif;
+
+
+  
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from 0%{ -moz-transform: translateX(50%); }
+  to { -moz-transform: translateX(-50%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(50%); }
+  to { -webkit-transform: translateX(-50%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(50%);
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+  }
+  to {
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  
+}
+}
+
+.scroll-container {
+  position: relative; /* Ensure relative positioning for the container */
+  width: 670px; /* Adjust width as needed */
+  height: 150px; /* Adjust height as needed */
+  overflow: hidden; /* Hide any content that exceeds the container */
+  margin-left: 95px;
+}
+
+/* top-half and bottom-half */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Make container take up entire viewport height */
+}
+
+.top-half {
+  /*width: 100%; /* Adjust the width as per your requirement */
+  /*margin: 0 auto; /* Centers the container horizontally */
+  /*padding: 20px; /* Adds padding inside the container */
+  background-color: #2D4855; /* Background color of the container */
+  flex: 0 0 35%;
+  /*border: none; /* Border around the container */
+  /*border-radius: 5px; /* Adds rounded corners to the container */
+  /*box-shadow: none; /* Adds a shadow effect */
+  /*height: 50vh;*/
+  margin-bottom: 25px;
+}
+
+.bottom-half
+{
+  background-color: #D1E5F4;
+  flex: 0 0 65%;
+  margin-top: 0px;
+}
+
+.about {
+  display: flex;
+  /*align-items: center;*/
+}
+
+.propic {
+  width: 300px; /* Adjust as needed */
+  height: 290px; /* Maintain aspect ratio */
+  margin-left: 370px;
+  /*margin-right: 20px; /* Add spacing between image and text */
+  margin-top: 10px;
+    border-radius: 50%;
+}
+
+.about-container {
+  margin-left: 150px;
+  margin-right: 390px;
+  margin-top: 90px;
+  color: black;
+  font-size: 20px;
+  font-weight: 1000;
+  font-family: sans-serif;
+}
+
+a 
+{
+  text-decoration: none;
+}
+
+.skills-icons
+{
+  width: 40px;  
+}
+

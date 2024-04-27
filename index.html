@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <title>My Personal Portfolio</title>
+      <link href="index.css" rel="stylesheet" type="text/css">
+      <script src="index.js"></script>
+       
+       <!--fira font embedding-->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+      
+      <div class="container">
+      <div class="top-half">
+
+        <!--tabs-->
+      <div class = "tabs"> 
+        <input type="button" class = "tab-buttons" onclick="tabOne()" id= "khibaButton" value ="khiba"/>
+        <input type="button" class = "tab-buttons" onclick="tabTwo()" id ="projectsButton" value="projects"/>
+        <input type="button" class = "tab-buttons" onclick="tabThree()" id="blogButton" value="blog"/>
+        
+        </br></br>
+        </div>
+
+        <div id="khiba">
+        <!--my name and what I do-->
+        <div class = "intro">
+  
+          <div class = "hello-world">
+          </br></br></br></br>
+            &nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;
+            Hello World!</div>
+          &nbsp;&nbsp;&nbsp;
+
+          <div class ="name">
+            &nbsp;&nbsp;&nbsp;
+            I'm Khiba Koenane</div></div>
+          </br>
+
+          <div class="skills scroll-container">
+            <div class = "scroll">
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              software developer
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              web developer
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              pentester
+            </div>
+          </div>
+
+        <!--Bottom half of screen-->
+        <div class = "bottom-half">
+          
+          <div>
+            <a href="https://www.upwork.com/freelancers/~018682ade592de44ad?viewMode=1">
+            <button class = "social-buttons"><img src = "upwork.svg" class = "social-icons"></button>
+            </a>
+            <a href="https://github.com/khiba-k">
+            <button class = "social-buttons"><img src = "github.svg " class = "social-icons"></button>
+            </a>
+            <button class = "social-buttons"><img src = "gmail.svg" class = "social-icons"></button>
+            <a href="https://www.linkedin.com/in/khiba-koenane-6477652a3/">
+            <button class = "social-buttons"><img src = "linkedin.svg" class = "social-icons"></button>
+            </a>
+            <a href="https://instagram.com/khiba_koenane/">
+            <button class="social-buttons"><img src = "instagram.svg" class="social-icons"></button>
+            </a>
+        </div>
+
+          <div class = "about" id="about">
+            <img src = "khiba2.jpg" class = "propic"/>
+              <p class = "about-container">
+              Hey there! I'm Khiba Koenane, a software developer from South Africa. 
+              While my journey in the tech world may be relatively fresh, 
+              I've poured countless hours into refining my skills through personal projects and immersive experiences at school.
+              
+              </br></br>
+              <img src = "c.svg" class = "skills-icons"/>&nbsp;
+              <img src = "html.svg" class="skills-icons"/>&nbsp;
+              <img src = "css.svg" class="skills-icons"/>&nbsp;
+            </p>
+              </p>
+          </div>
+
+        </div>
+        </div>
+      </div>
+
+      <div id="projects" style="display: none;"> projects go here</div>
+      <div id="blog" style="display: none;"> Blog goes here</div>
+    </body>
+</html>
